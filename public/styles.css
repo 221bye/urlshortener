@@ -1,0 +1,43 @@
+body {
+    font-size: 20px;
+    font-family: "Courier New", monospace;
+    display: grid;
+    place-items: center;
+    background-color: #2f3432;
+}
+
+p {
+    background-color: #bf616a;
+    color: #ffffff;
+}
+
+section {
+    position: absolute;
+    top: 30%;
+    display: grid;
+    place-items: center;
+}
+
+input {
+    background-color: #2f3432;
+    border-color: #bf616a;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: inherit;;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #bf616a;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+button:active {
+    background-color: #ffffff;
+    color: #2f3432;
+}
